@@ -1,0 +1,45 @@
+/* Give styling here  */
+ h1{
+    text-align: center;
+ }
+ #main{
+    display: flex;
+    justify-content: space-between;
+ }
+ #form{
+  width: 25%;
+  border: 1px solid gray;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+ }
+ button{
+    width: 40%;
+  margin-left: 90px;
+ }
+ #container{
+    width: 72%;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    grid-row: 15px;
+ }
+ .item{
+    padding: 10px;
+    border: 1px solid gray;
+    height: 400px;
+    margin: 5px;
+    text-align: center;
+
+ }
+ .item>img{
+    width: 100%;
+    height: 55%;
+ }
+ .item>button{
+    display: block;
+    margin-bottom: 7px;
+ 
+ }
